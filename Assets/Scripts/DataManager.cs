@@ -25,26 +25,29 @@ public class DataManager : MonoBehaviour
         //Set reference to the existing instance
         Instance = this;
         DontDestroyOnLoad(gameObject);
-        LoadColor();
+        LoadScoreData();
     }
 
     [System.Serializable]
     class SaveData
     {
-        public Color TeamColor;
+        //public Color TeamColor;
+        public string playerName;
+        public int highScore;
     }
 
-    public void SaveColor()
+    public void SaveScoreData()
     {
         SaveData data = new SaveData();
-        data.TeamColor = TeamColor;
+        data.playerName = playerName;
+        data.highScore = highScore;
 
         string json = JsonUtility.ToJson(data);
 
         File.WriteAllText(Application.persistentDataPath + "/savefile.json", json);
     }
 
-    public void LoadColor()
+    public void LoadScoreData()
     {
         string path = Application.persistentDataPath + "/savefile.json";
         if (File.Exists(path))
@@ -52,7 +55,9 @@ public class DataManager : MonoBehaviour
             string json = File.ReadAllText(path);
             SaveData data = JsonUtility.FromJson<SaveData>(json);
 
-            TeamColor = data.TeamColor;
+            //TeamColor = data.TeamColor;
+            playerName = data.playerName;
+            highScore = data.highScore;
         }
     }
     //[System.Serializable]
