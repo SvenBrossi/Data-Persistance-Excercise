@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
+using TMPro;
 
 public class DataManager : MonoBehaviour
 {
@@ -13,6 +14,9 @@ public class DataManager : MonoBehaviour
     public string playerName;
     public string highScoreOwner;
     public int highScore;
+
+    public TextMeshProUGUI scoreDisplay;
+    public TextMeshProUGUI playerNameField;
 
     void Awake()
     {
@@ -27,6 +31,22 @@ public class DataManager : MonoBehaviour
         Instance = this;
         DontDestroyOnLoad(gameObject);
         LoadScoreData();
+    }
+
+    public void FillHighScore()
+    {
+        scoreDisplay.text = GetHighScoreInfo();
+    }
+
+    public string GetHighScoreInfo()
+    {
+        string highScoreInfo = "Best Score: " + highScoreOwner + " : " + highScore ;
+        return highScoreInfo;
+    }
+
+    public void GetPlayerName()
+    {
+        playerName = playerNameField.text;
     }
 
     [System.Serializable]
