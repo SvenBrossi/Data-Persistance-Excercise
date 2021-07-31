@@ -16,7 +16,7 @@ public class DataManager : MonoBehaviour
     public int highScore;
 
     public TextMeshProUGUI scoreDisplay;
-    public TextMeshProUGUI playerNameField;
+    public TMP_Text  playerNameField;
 
     void Awake()
     {
