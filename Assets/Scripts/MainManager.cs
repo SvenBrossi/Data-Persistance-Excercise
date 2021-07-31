@@ -75,3 +75,4 @@ public class MainManager : MonoBehaviour
         GameOverText.SetActive(true);
     }
 }
+  

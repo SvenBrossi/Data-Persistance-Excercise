@@ -12,62 +12,62 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56337
+49414
 Successfully changed project path to: /Users/sven/Documents/GitHub/Data-Persistance-Excercise
 /Users/sven/Documents/GitHub/Data-Persistance-Excercise
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 57.12 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 55.66 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.13f1 (71691879b7f5)
 [Subsystems] Discovering subsystems at path /Applications/Unity Editor Versions/2020.3.13f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/sven/Documents/GitHub/Data-Persistance-Excercise/Assets
 GfxDevice: creating device client; threaded=0
-2021-07-28 17:02:00.440 Unity[42792:546928] iMac preferred device: AMD Radeon R9 M290X (high power)
-2021-07-28 17:02:00.440 Unity[42792:546928] Metal devices available: 1
-2021-07-28 17:02:00.440 Unity[42792:546928] 0: AMD Radeon R9 M290X (high power)
-2021-07-28 17:02:00.440 Unity[42792:546928] Using device AMD Radeon R9 M290X (high power)
+2021-07-31 11:11:03.583 Unity[68562:1535407] iMac preferred device: AMD Radeon R9 M290X (high power)
+2021-07-31 11:11:03.583 Unity[68562:1535407] Metal devices available: 1
+2021-07-31 11:11:03.583 Unity[68562:1535407] 0: AMD Radeon R9 M290X (high power)
+2021-07-31 11:11:03.584 Unity[68562:1535407] Using device AMD Radeon R9 M290X (high power)
 Initializing Metal device caps: AMD Radeon R9 M290X
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Initialize mono
 Mono path[0] = '/Applications/Unity Editor Versions/2020.3.13f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity Editor Versions/2020.3.13f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity Editor Versions/2020.3.13f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56792
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56562
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity Editor Versions/2020.3.13f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity Editor Versions/2020.3.13f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001290 seconds.
+Registered in 0.001269 seconds.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 52.43 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 51.53 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.851 seconds
+- Completed reload, in  2.958 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005259 seconds.
+Registered in 0.004928 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 52.76 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 51.79 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.482 seconds
+- Completed reload, in  1.534 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Launching external process: /Applications/Unity Editor Versions/2020.3.13f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
 Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2713 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 209.6 MB.
-System memory in use after: 209.8 MB.
+System memory in use before: 209.8 MB.
+System memory in use after: 210.0 MB.
 
 Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3145.
-Total: 3.622575 ms (FindLiveObjects: 0.387678 ms CreateObjectMapping: 0.246955 ms MarkObjects: 2.895327 ms  DeleteObjects: 0.091314 ms)
+Total: 3.440728 ms (FindLiveObjects: 0.325003 ms CreateObjectMapping: 0.130766 ms MarkObjects: 2.878421 ms  DeleteObjects: 0.105078 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -83,30 +83,38 @@ AssetImportParameters requested are different than current active one (requested
 Received Import Request.
   path: Assets/Scripts/DataManager.cs
   artifactKey: Guid(0954e7d2fc95c4013a523649c6a386f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/DataManager.cs using Guid(0954e7d2fc95c4013a523649c6a386f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3900cfab934cc6450b90e5826a584a7d') in 2.421515 seconds 
-  Import took 2.426992 seconds .
+Start importing Assets/Scripts/DataManager.cs using Guid(0954e7d2fc95c4013a523649c6a386f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60b0703fb464437d7ac55c08bc2f1bdb') in 3.385572 seconds 
+  Import took 3.390696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.626051 seconds.
+  path: Assets/Scripts/DataManager.cs
+  artifactKey: Guid(0954e7d2fc95c4013a523649c6a386f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DataManager.cs using Guid(0954e7d2fc95c4013a523649c6a386f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc6cf9f5079dbb176e23d24b57bc83d4') in 0.003264 seconds 
+  Import took 0.011199 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004650 seconds.
+Registered in 0.005037 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.355 seconds
+- Completed reload, in  1.239 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2591 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 206.0 MB.
-System memory in use after: 206.2 MB.
+System memory in use after: 206.3 MB.
 
 Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3147.
-Total: 2.919462 ms (FindLiveObjects: 0.350208 ms CreateObjectMapping: 0.228168 ms MarkObjects: 2.324004 ms  DeleteObjects: 0.016208 ms)
+Total: 3.002604 ms (FindLiveObjects: 0.396952 ms CreateObjectMapping: 0.320967 ms MarkObjects: 2.263708 ms  DeleteObjects: 0.019774 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -120,41 +128,33 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 933.252877 seconds.
+  Time since last request: 56.900667 seconds.
   path: Assets/Scripts/DataManager.cs
   artifactKey: Guid(0954e7d2fc95c4013a523649c6a386f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/DataManager.cs using Guid(0954e7d2fc95c4013a523649c6a386f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b25e83604ff6f4bb29209cf22f601a02') in 0.014250 seconds 
-  Import took 0.041226 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 43.659620 seconds.
-  path: Assets/Scenes/start.unity
-  artifactKey: Guid(4c45333d8b05b4eaf9ee7633f7e9657e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/start.unity using Guid(4c45333d8b05b4eaf9ee7633f7e9657e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ba2d5a615826e314353188c76777620') in 0.019661 seconds 
-  Import took 0.044595 seconds .
+Start importing Assets/Scripts/DataManager.cs using Guid(0954e7d2fc95c4013a523649c6a386f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '654aa11eb1639ef5e5ca029357a65b6b') in 0.008275 seconds 
+  Import took 0.022576 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004210 seconds.
+Registered in 0.005127 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.331 seconds
+- Completed reload, in  1.267 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2591 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 206.4 MB.
 System memory in use after: 206.6 MB.
 
 Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3149.
-Total: 2.986778 ms (FindLiveObjects: 0.387049 ms CreateObjectMapping: 0.258397 ms MarkObjects: 2.323210 ms  DeleteObjects: 0.016980 ms)
+Total: 2.482811 ms (FindLiveObjects: 0.257299 ms CreateObjectMapping: 0.097984 ms MarkObjects: 2.111435 ms  DeleteObjects: 0.015098 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -169,24 +169,24 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004344 seconds.
+Registered in 0.004900 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.302 seconds
+- Completed reload, in  1.292 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2591 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 206.7 MB.
-System memory in use after: 206.9 MB.
+System memory in use after: 207.0 MB.
 
 Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3151.
-Total: 3.152730 ms (FindLiveObjects: 0.418925 ms CreateObjectMapping: 0.271715 ms MarkObjects: 2.442697 ms  DeleteObjects: 0.018345 ms)
+Total: 2.963422 ms (FindLiveObjects: 0.365859 ms CreateObjectMapping: 0.237288 ms MarkObjects: 2.340753 ms  DeleteObjects: 0.018357 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -199,58 +199,42 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 435.098869 seconds.
+  path: Assets/Scripts/MainManager.cs
+  artifactKey: Guid(d110623a642692246a42fbc2d8d89884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainManager.cs using Guid(d110623a642692246a42fbc2d8d89884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b842c06b86bd947f871d4d307046982f') in 0.014344 seconds 
+  Import took 0.178924 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021444 seconds.
+  path: Assets/Scripts/MainManager.cs
+  artifactKey: Guid(d110623a642692246a42fbc2d8d89884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainManager.cs using Guid(d110623a642692246a42fbc2d8d89884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b842c06b86bd947f871d4d307046982f') in 0.002841 seconds 
+  Import took 0.007914 seconds .
+
+========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004565 seconds.
+Registered in 0.004504 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.384 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.347 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2591 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 207.0 MB.
-System memory in use after: 207.2 MB.
+System memory in use before: 207.1 MB.
+System memory in use after: 207.3 MB.
 
 Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3153.
-Total: 2.954703 ms (FindLiveObjects: 0.369254 ms CreateObjectMapping: 0.246232 ms MarkObjects: 2.320505 ms  DeleteObjects: 0.017704 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004848 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.348 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2591 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 207.3 MB.
-System memory in use after: 207.5 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3155.
-Total: 3.055991 ms (FindLiveObjects: 0.348423 ms CreateObjectMapping: 0.240239 ms MarkObjects: 2.438367 ms  DeleteObjects: 0.028089 ms)
+Total: 2.857242 ms (FindLiveObjects: 0.349720 ms CreateObjectMapping: 0.230612 ms MarkObjects: 2.260370 ms  DeleteObjects: 0.015682 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 

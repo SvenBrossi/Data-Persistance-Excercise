@@ -11,6 +11,7 @@ public class DataManager : MonoBehaviour
     public static DataManager Instance;
 
     public string playerName;
+    public string highScoreOwner;
     public int highScore;
 
     void Awake()
@@ -33,6 +34,7 @@ public class DataManager : MonoBehaviour
     {
         //public Color TeamColor;
         public string playerName;
+        public string highScoreOwner;
         public int highScore;
     }
 
@@ -40,6 +42,7 @@ public class DataManager : MonoBehaviour
     {
         SaveData data = new SaveData();
         data.playerName = playerName;
+        data.highScoreOwner = highScoreOwner;
         data.highScore = highScore;
 
         string json = JsonUtility.ToJson(data);
@@ -57,6 +60,7 @@ public class DataManager : MonoBehaviour
 
             //TeamColor = data.TeamColor;
             playerName = data.playerName;
+            highScoreOwner = data.highScoreOwner;
             highScore = data.highScore;
         }
     }
